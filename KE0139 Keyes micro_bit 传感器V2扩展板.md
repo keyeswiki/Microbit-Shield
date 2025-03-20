@@ -28,7 +28,7 @@
 
 ## 3. 规格参数
 - **产品型号**：KE0139  
-- **尺寸**：约 65mm × 56mm × 15mm  
+- **尺寸**：约 65mm × 56mm
 - **重量**：约 31g  
 - **输入电压**：  
   - DC 7~9V（通过黑色 DC 头）  
@@ -82,39 +82,18 @@
 
 ---
 
-## 7. 示例代码
-举例：使用 **LM35 温度传感器** (模拟输出) 与 **I2C 1602 LCD** 同时连接。LM35 接在 P0 的 3PIN 接口；1602 I2C 屏与 I2C 接口对应 (SCL、SDA)。以下为简单伪代码流程：
+## 7.超声波传感器示例代码
 
-```cpp
-// 伪代码：读取P0上LM35传感器值，并在I2C 1602 LCD显示
-// micro:bit MakeCode或MicroPython均可根据实际库函数编写
-
-init_I2C_LCD() // 初始化 I2C 1602 LCD
-set_LCD_cursor(0, 0)
-
-basic.forever(function () {
-    // 读模拟量
-    let analogValue = pins.analogReadPin(AnalogPin.P0)
-    // LM35输出 10mV/℃ => micro:bit ADC(0~1023)/3.3V => 注意换算系数
-    let temperature = (analogValue * 3.3 / 1023) / 0.01  
-    // 显示温度
-    lcd.clear()
-    lcd.print("Temp: " + temperature + "C")
-    basic.pause(1000)
-})
-```
-> *注意：实际测量与计算公式需参考 LM35、micro:bit ADC 分辨率、参考电压等，示例仅供演示。也可使用 Python code for micro:bit 完成类似操作。*
-
----
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_38HRDh47d1MK" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ## 8. 实验现象
 
-![image-20250317120108990](media/image-20250317120108990.png)
-
-1. **电源与指示灯**：通电后，扩展板上的电源指示灯亮，micro:bit 即可正常运行。  
-2. **温度采集**：LM35 采集到模拟电压值随环境温度变化而变化；  
-3. **LCD 显示**：I2C 1602 LCD 上实时显示当前环境温度；  
-4. **芯片发热**：在外接负载电流较大或较高电压输入 (7~9V) 时，板载 AMS1117-3.3V 或 NCP1117ST50T3G 可能明显发热。
+1. **电源与指示灯**：通电后，扩展板上的电源指示灯亮起，micro:bit 正常运行。
+2. **距离测量**：当超声波传感器检测到前方物体的距离时：
+   - 当距离小于 10cm 时，显示心形图案，指示物体靠近。
+   - 当距离大于或等于 10cm 时，显示方块图案，指示物体距离较远。
+3. **实时反馈**：LED 显示图案随距离变化实时更新，方便直观观察。
+![Img](./FILES/KE0139%20Keyes%20micro_bit%20传感器V2扩展板.md/img-20250320195644.jpg)
 
 ---
 

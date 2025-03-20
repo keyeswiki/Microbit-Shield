@@ -15,7 +15,7 @@
 - **产品型号**：KE0141  
 - **输入电压**：DC 3V  
 - **排针间距**：2.54mm  
-- **尺寸**：约 70mm × 34mm × 12mm  
+- **尺寸**：约 70mm × 34mm
 - **重量**：约 18.6g  
 
 ![image-20250319083933342](media/image-20250319083933342.png)
@@ -33,14 +33,7 @@
 4. **编写代码**  
    - 在 micro:bit 上编写相应的代码以控制 LED 的闪烁。例如，使用 MakeCode 编写简单的闪烁程序：
 
-```cpp
-basic.forever(function () {
-    pins.digitalWritePin(DigitalPin.P0, 1) // 点亮 LED
-    basic.pause(500)
-    pins.digitalWritePin(DigitalPin.P0, 0) // 熄灭 LED
-    basic.pause(500)
-})
-```
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_btt8ex324esz" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ![image-20250317141819506](media/image-20250317141819506.png)
 

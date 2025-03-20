@@ -74,33 +74,7 @@
 ## 6. 测试程序
 以下为简单的测试程序，演示如何读取摇杆和按键状态，并控制 LED 指示灯的亮灭：
 
-```cpp
-// micro:bit MakeCode 示例代码
-let redLED = 0
-let yellowLED = 1
-
-basic.forever(function () {
-    // 读取摇杆状态
-    let xValue = pins.analogReadPin(AnalogPin.P4)
-    let yValue = pins.analogReadPin(AnalogPin.P3)
-    
-    // 控制 LED 状态
-    if (xValue > 512) {
-        pins.digitalWritePin(redLED, 1) // 摇杆向右拨
-    } else if (xValue < 512) {
-        pins.digitalWritePin(yellowLED, 1) // 摇杆向左拨
-    } else {
-        pins.digitalWritePin(redLED, 0)
-        pins.digitalWritePin(yellowLED, 0)
-    }
-    
-    // 读取按键状态
-    if (pins.digitalReadPin(DigitalPin.P7) == 1) {
-        pins.digitalWritePin(redLED, 1) // SELECT 按键按下
-    }
-    // 其他按键同理...
-})
-```
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_YU4U8yVxXK3a" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ---
 
