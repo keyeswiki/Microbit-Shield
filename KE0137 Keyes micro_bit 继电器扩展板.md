@@ -65,31 +65,7 @@
 ---
 
 ## 6. 连接图
-下面展示 4 路继电器控制简单 LED 负载的示意（仅做逻辑示例）：
-
-```mermaid
-flowchart LR
-    subgraph S["Keyes 4路继电器扩展板"]
-    MB["micro:bit\n插槽"] --> P4("P4") 
-    MB --> P3("P3")
-    MB --> P7("P7")
-    MB --> P6("P6")
-    S1["Relay1 (COM, NO, NC)"]
-    S2["Relay2 (COM, NO, NC)"]
-    S3["Relay3 (COM, NO, NC)"]
-    S4["Relay4 (COM, NO, NC)"]
-    P4 --> S1
-    P3 --> S2
-    P7 --> S3
-    P6 --> S4
-    end
-
-    PWR["DC 5V"] --> S
-    S1 -- NO --> L1["负载1"]
-    S2 -- NO --> L2["负载2"]
-    S3 -- NO --> L3["负载3"]
-    S4 -- NO --> L4["负载4"]
-```
+下面展示4路继电器控制简单LED负载逻辑示例：
 
 1. micro:bit 插在扩展板上，不再繁琐走线；  
 2. 5V 电源输入到扩展板 VIN、GND；  
@@ -150,10 +126,7 @@ while True:
   - [micro:bit 官方](https://microbit.org/)  
   - [MakeCode 在线编程](https://makecode.microbit.org/)  
 - **Keyes 相关**  
-  - [Keyes 官网](http://www.keyestudio.com)  
-  - [Keyes 天猫旗舰店](https://keyes.tmall.com/)  
+  - [Keyes 官网](http://www.keyes-robot.com)  
 - **开发资料**  
   - [Mu Editor](https://codewith.mu/) (在 micro:bit 上使用 Python 编程的编辑器)  
   - [Arduino 资源](https://www.arduino.cc/) (有助于理解一般电子编程思路与示例)
-
-如有更多疑问，可联系 Keyes 官方客服或在创客社区进行探讨。祝使用愉快！

@@ -98,7 +98,6 @@
 - [micro:bit 官网](https://microbit.org/)  
 - [MakeCode 在线编程平台](https://makecode.microbit.org/)  
 - [Keyes 官网](http://www.keyes-robot.com/)  
-- [Keyes 天猫旗舰店](https://keyes.tmall.com/)  
 - [micro:bit 教学资源与示例](https://microbit.org/teach/)  
 
 通过 **KE0120 micro:bit 原型扩展板 V1（含小面包板）**，你可以更高效地进行电路原型搭建，在不需要焊接的情况下快速完成从代码到硬件实例的调试与验证，为创意项目和课堂教学带来更多可能性。祝你玩得开心，创作无限！

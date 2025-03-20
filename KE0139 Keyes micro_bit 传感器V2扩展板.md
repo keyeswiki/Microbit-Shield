@@ -75,13 +75,6 @@
 ## 6. 连接图
 以下示意将 micro:bit 开发板插入扩展板，通过黑色 DC 头输入 7~9V，为传感器供电 5V 的连接逻辑：
 
-```mermaid
-flowchart LR
-    A["DC 7~9V\n(电源适配器)"] -- 输入 --> B["Keyes micro:bit 传感器V2扩展板"]
-    B -- 金手指插槽 --> M["micro:bit\n主板"]
-    B -- 3PIN门/跳线帽=5V --> S["传感器/模块\n(如: LM35, I2C1602 LCD)"]
-```
-
 1. 将 micro:bit 有 LED 显示的一面朝外插入扩展板；  
 2. 选择 V1、V2 跳线帽位置到 5V；  
 3. 黑色 DC 头输入 7~9V；  
@@ -140,8 +133,7 @@ basic.forever(function () {
   - [micro:bit 官方](https://microbit.org/)  
   - [MakeCode 在线编程](https://makecode.microbit.org/)  
 - **Keyes 相关**  
-  - [Keyes 官网](http://www.keyestudio.com/)  
-  - [Keyes 天猫旗舰店](https://keyes.tmall.com/)  
+  - [Keyes 官网](http://www.keyes-robot.com/)  
 - **开发辅助**  
   - [Mu Editor](https://codewith.mu/) (micro:bit Python 编程环境)  
   - [Arduino 官方](https://www.arduino.cc/) (可参考一般电子开发资料)

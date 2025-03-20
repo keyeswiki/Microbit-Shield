@@ -30,13 +30,6 @@
 3. **实验示例**  
    - 例如，连接一个外接 LED 灯，完成 LED 闪烁实验。以下是连接示意图：
 
-```mermaid
-flowchart LR
-    A["micro:bit 开发板"] -- 插入 --> B["Keyes Breakout 扩展板"]
-    B -- 杜邦线连接 --> C["面包板"]
-    C -- 连接 --> D["外接 LED"]
-```
-
 4. **编写代码**  
    - 在 micro:bit 上编写相应的代码以控制 LED 的闪烁。例如，使用 MakeCode 编写简单的闪烁程序：
 

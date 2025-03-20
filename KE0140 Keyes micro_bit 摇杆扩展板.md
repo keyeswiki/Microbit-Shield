@@ -63,13 +63,6 @@
 
 以下示意将 micro:bit 开发板插入摇杆扩展板，并通过外部电源供电的连接逻辑：
 
-```mermaid
-flowchart LR
-    A["DC 4.75-12V\n(电源适配器)"] -- 输入 --> B["Keyes micro:bit 摇杆扩展板"]
-    B -- 金手指插槽 --> M["micro:bit\n主板"]
-    B -- 摇杆和按键信号 --> C["外部设备\n(如: 模拟鼠标)"]
-```
-
 1. 将 micro:bit 插入扩展板的金手指插槽；  
 2. 通过 DC 电源适配器连接扩展板供电；  
 3. 摇杆和按键的信号通过 micro:bit 控制外部设备。
@@ -140,8 +133,7 @@ basic.forever(function () {
   - [micro:bit 官方](https://microbit.org/)  
   - [MakeCode 在线编程](https://makecode.microbit.org/)  
 - **Keyes 相关**  
-  - [Keyes 官网](http://www.keyestudio.com/)  
-  - [Keyes 天猫旗舰店](https://keyes.tmall.com/)  
+  - [Keyes 官网](http://www.keyes-robot.com/)  
 - **开发辅助**  
   - [Mu Editor](https://codewith.mu/) (micro:bit Python 编程环境)  
   - [Arduino 官方](https://www.arduino.cc/) (可参考一般电子开发资料)

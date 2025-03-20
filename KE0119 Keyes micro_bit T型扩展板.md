@@ -70,6 +70,5 @@
 - [BBC micro:bit 官方网站](https://microbit.org/)  
 - [MakeCode 在线编程](https://makecode.microbit.org/)  
 - [Keyes 官网](http://www.keyes-robot.com/)  
-- [Keyes 天猫旗舰店](https://keyes.tmall.com/)  
 - [micro:bit 教学资源](https://microbit.org/teach/)
 

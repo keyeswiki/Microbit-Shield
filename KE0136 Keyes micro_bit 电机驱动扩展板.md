@@ -132,10 +132,7 @@ while True:
   - [micro:bit 官方](https://microbit.org/)  
   - [MakeCode 在线编程](https://makecode.microbit.org/)  
 - **Keyes 官网上商城**  
-  - [Keyes 官网](http://www.keyestudio.com)  
-  - [Keyes 天猫旗舰店](https://keyes.tmall.com/)  
+  - [Keyes 官网](http://www.keyes-robot.com)  
 - **开发相关**  
   - [Mu Editor](https://codewith.mu/) (在 micro:bit 上进行 Python 编程)  
   - [Arduino 在线资源](https://www.arduino.cc/) (有助于理解通用电子与编程思路)
-
-如有更多技术需求，可与 Keyes 官方客服或社区交流。祝使用愉快！

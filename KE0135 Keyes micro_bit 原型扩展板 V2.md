@@ -71,16 +71,6 @@ micro:bit 通过插槽与扩展板进行电气连接，扩展板则将 micro:bit
 
 ![image-20250318170622684](media/image-20250318170622684.png)
 
-以下以示意形式说明 micro:bit 与扩展板、面包板及外接模块的关系：  
-
-```mermaid
-flowchart LR
-    id1["'micro:bit' (V2)"] --插入--> id2["Keyes扩展板 (KE0135)"]
-    id2 --I/O 引脚排针--> id3["面包板 (400孔)"]
-    id3 --接线--> id4[外部传感器或执行器]
-    id2 --(可选)外部电源--> id5[5V 电源输入]
-```
-
 - 将 micro:bit 插入扩展板插槽  
 - 从扩展板引脚连接面包板，再根据实验需要，将传感器/LED/电机驱动等模块插在面包板上  
 - 若项目需要更大功率，可另行接入 5V 电源口 (按版本支持情况)
@@ -120,7 +110,6 @@ flowchart LR
   - [micro:bit 官方](https://microbit.org/)  
   - [MakeCode 在线编程](https://makecode.microbit.org/)  
 - **Keyes 相关链接**  
-  - [Keyes 官网](http://www.keyestudio.com)  
-  - [Keyes 天猫旗舰店](https://keyes.tmall.com/)  
+  - [Keyes 官网](http://www.keyes-robot.com)  
 - **开发资料**  
   - [Mu Editor](https://codewith.mu/) (micro:bit Python 编程)  

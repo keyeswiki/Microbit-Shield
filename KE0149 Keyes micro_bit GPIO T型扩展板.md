@@ -17,7 +17,7 @@
 ---
 
 ## 2. 规格参数
-- **尺寸**：68mm × 56mm × 20mm  
+- **尺寸**：68mm × 56mm 
 - **重量**：13.6g  
 
 ![KE0149-7](media/KE0149-7.jpg)
@@ -56,8 +56,7 @@
 - **micro:bit 官方文档**  
   - [micro:bit 官方](https://microbit.org/)  
 - **Keyes 相关**  
-  - [Keyes 官网](http://www.keyestudio.com/)  
-  - [Keyes 天猫旗舰店](https://keyes.tmall.com/)  
+  - [Keyes 官网](http://www.keyes-robot.com/)  
 - **开发辅助**  
   - [micro:bit 编程指南](https://microbit.org/guide/)  
   - [Arduino IDE 下载](https://www.arduino.cc/en/software)  

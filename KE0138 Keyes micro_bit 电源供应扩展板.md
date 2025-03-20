@@ -108,10 +108,8 @@
   - [micro:bit 官方网站](https://microbit.org/)  
   - [MakeCode 在线编程](https://makecode.microbit.org/)  
 - **Keyes 相关**  
-  - [Keyes 官网](http://www.keyestudio.com)  
-  - [Keyes 天猫旗舰店](https://keyes.tmall.com/)  
+  - [Keyes 官网](http://www.keyes-robot.com)  
 - **开发辅助**  
   - [Mu Editor](https://codewith.mu/) (micro:bit Python 编程环境)  
   - [Arduino 官方](https://www.arduino.cc/) (可参照其他开发板的一般电子知识)
 
-如有更多需求或疑问，请联系 Keyes 官方客服或访问相关创客社区。祝使用愉快！

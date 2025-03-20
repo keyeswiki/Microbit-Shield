@@ -103,7 +103,6 @@
 - [BBC micro:bit 官网](https://microbit.org/)  
 - [MakeCode 在线编程平台](https://makecode.microbit.org/)  
 - [Keyes 官网](http://www.keyes-robot.com/)  
-- [Keyes 天猫旗舰店](https://keyes.tmall.com/)  
 - [micro:bit 教学与资源](https://microbit.org/teach/)  
 
 通过 **KE0121 micro:bit 传感器扩展板**，你可以轻松地将 micro:bit 与多种传感器和模块组合起来，快速实现从简单的舵机控制到复杂的多传感器融合等丰富应用。愿你在探索与创作中体验到更多乐趣与成就！
